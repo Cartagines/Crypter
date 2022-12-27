@@ -60,9 +60,9 @@ class SymmetricCrypto(Base.Base):
 
     key = ''.join(random.choice('0123456789ABCDEF') for i in range(32))
     # DEV - Write to file
-    fh = open("key.txt", "w")
-    fh.write(key)
-    fh.close()
+   # fh = open("key.txt", "w")
+   # fh.write(key)
+   #fh.close()
 
     return key
 
